@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   xml:space="preserve"
+   width="765"
+   height="990"
+   viewBox="0 0 765 990"
+   sodipodi:docname="datex_red.svg"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.67425131"
+     inkscape:cx="131.44668"
+     inkscape:cy="552.4422"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10" /><g
+     id="g10"
+     inkscape:groupmode="layer"
+     inkscape:label="datex_logo"
+     transform="matrix(1.25,0,0,-1.25,0,990)"><g
+       id="g12"
+       transform="translate(104.7876,462.0309)"
+       style="fill:#ff0000;fill-opacity:0.79656863"><path
+         d="m 0,0 499.212,0 -91.787,-132.062 -499.213,0 L 0,0 Z"
+         style="fill:#ff0000;fill-opacity:0.79656863;fill-rule:nonzero;stroke:none"
+         id="path14"
+         inkscape:connector-curvature="0" /></g><text
+       transform="matrix(1,0,0,-1,105,340.9687)"
+       style="font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:150px;font-family:'Arial Narrow';-inkscape-font-specification:ArialNarrow-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text16"><tspan
+         x="0 88.800003 168.52499 243.675 325.72501"
+         y="0"
+         sodipodi:role="line"
+         id="tspan18">DATEX</tspan></text>
+</g></svg>
