@@ -1,0 +1,299 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background-color: white;
+}
+
+
+li {
+    float: left;
+}
+
+
+li a {
+    text-align: center;
+    display: block;
+    color:rgba(255, 95, 95, 0.562);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: Helvetica, Arial, sans-serif;
+
+}
+
+a {
+	color: white;
+    text-decoration: none;
+    text-decoration-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    text-decoration: none;
+}
+h1:hover {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ef473a;
+    text-decoration-color: white;
+}
+.gradient{
+       background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+html {
+    height: relative;
+    overflow: scroll;
+    font: Helvetica, Arial, sans-serif;
+  }
+
+  .KW_progressContainer {
+    left:0;
+    width: 100%;
+    height: 0.4em;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0px;
+    overflow: hidden;
+    background-color: white;
+    content: "";
+          display: table;
+          table-layout: fixed;
+  }
+  
+  
+  .KW_progressBar {
+    width: 0%;
+    float: left;
+    height: 100%;
+    z-index:99;
+    max-width: 100%;
+    background-color: #ef473a;
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+  }
+
+  .bar {
+      font: 'helvetica', 'arial', sans-serif;
+  }
+  .small {
+  color: white;
+  transition: transform .5s;
+  margin: 0 auto;
+  }
+
+  .small:hover {
+  }
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    color: white; 
+}
+
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 2.5%;
+
+}
+.col:first-child { margin-left: 0; }
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1;}
+
+.large {
+    font-size: 35px;
+	color: white;
+}
+.sideways {
+	transform: rotate(90deg);
+	color: #fff;
+}
+table td {
+	padding: 0px 25px;	
+}
+
+.zoom {
+    padding: 0px;
+    transition: transform .2s;
+    margin: 0 auto;
+    
+}
+
+
+
+.zoom:hover{
+    transform: scale(1.5);
+}
+
+.zoom.sideways.small {
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+	color: #fff;
+}
+
+.zoom.sideways.small:hover{
+    transform: scale(1);
+
+}
+.quote {
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+    color: #fff;
+
+}
+.quote:hover {
+    transform: rotate('360deg');
+}
+p {
+    text-decoration-line: line-through;
+    text-decoration-color: transparent;
+    color: white;
+	background-color:transparent;
+    -webkit-text-decoration-skip:objects;
+    }
+a {
+    color: white;
+	background-color:transparent;
+    -webkit-text-decoration-skip: objects;
+    }
+
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+* Modified by James Slattery
+*/
+
+/* Grid
+�������������������������������������������������� */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+  /* Offsets */
+  .offset-by-one.column,
+  .offset-by-one.columns          { margin-left: 8.66666666667%; }
+  .offset-by-two.column,
+  .offset-by-two.columns          { margin-left: 17.3333333333%; }
+  .offset-by-three.column,
+  .offset-by-three.columns        { margin-left: 26%;            }
+  .offset-by-four.column,
+  .offset-by-four.columns         { margin-left: 34.6666666667%; }
+  .offset-by-five.column,
+  .offset-by-five.columns         { margin-left: 43.3333333333%; }
+  .offset-by-six.column,
+  .offset-by-six.columns          { margin-left: 52%;            }
+  .offset-by-seven.column,
+  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
+  .offset-by-eight.column,
+  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
+  .offset-by-nine.column,
+  .offset-by-nine.columns         { margin-left: 78.0%;          }
+  .offset-by-ten.column,
+  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
+  .offset-by-eleven.column,
+  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+
+  .offset-by-one-third.column,
+  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+  .offset-by-two-thirds.column,
+  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+
+  .offset-by-one-half.column,
+  .offset-by-one-half.columns     { margin-left: 52%; }
+
+}
+
+/* Media Queries
+�������������������������������������������������� */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you sswanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
